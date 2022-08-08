@@ -1,0 +1,288 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #f5f5f5;
+  overflow-x: hidden;
+}
+
+header{
+  height: 500px;
+  background-color: #3400ff;
+}
+
+nav{
+  float: right;
+  margin-right: 40px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.nav-item{
+  margin-right: 20px;
+  color: #ffffff;
+}
+
+.nav-item-active{
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  color: #5a31fc;
+  margin-right: 20px;
+  font-weight: 400;;
+  cursor: pointer;
+}
+
+.logo{
+  margin: 20px;
+}
+
+.header-text{
+ color: #ffffff;
+ margin-top: 50px;
+ margin-left: 60px;
+ float:left;
+}
+.header-image{
+  float:right;
+}
+.companies{
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.company-items{
+  text-decoration: none;
+  color: #1f1f1f;
+  font-weight: 600;
+  margin-left: 30px;
+}
+
+.api-heading{
+  margin-top:100px;
+  margin-left:90px;
+  font-weight: 800;
+  font-style: bold;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+
+.card{
+  width: 20%;
+  height: 250px;
+  background-color: #fff;
+  margin-right: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.card-active{
+  width: 20%;
+  height: 250px;
+  background-color: transparent;
+  margin-right: 30px;
+  box-shadow: 0px 5px 15px #1f1f1f ;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.card-logo{
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.card-head-active{
+  margin-left: 30px;
+  color: #1f1f1f;
+}
+
+.card-body{
+  color: #1f1f1f;
+  margin-left: 30px;
+  font-size: small;
+}
+
+.card-head{
+  margin-left: 30px;
+  color: #1f1f1f;
+}
+
+/* Blog section  */
+
+.blog-heading{
+ margin-left: 90px;
+ margin-top: 70px;
+}
+
+.blog-cards{
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 50px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blog-card{
+  /* display: flex; */
+  background-color: #ffffff;
+  height: 287px;
+  width: 47%;
+  background-color: #ffffff;
+  border-radius: 70px 10px 10px 10px;
+  box-shadow:0px 5px 18px rgba(0, 0, 0, 0.30);
+}
+
+.blog-content{
+  position: relative;
+  left: 300px;
+  bottom: 250px;
+}
+.blog-content h6{
+  color: #3400ff;
+}
+.blog-bottom{
+  position: relative;
+  bottom:220px;
+  left:300px;
+}
+
+.blog-author{
+  position: relative;
+  bottom:140px;
+  left: 180px;
+  font-size: 90%;
+}
+
+/*  FAQ SECTION  */
+.faq-section{
+  margin-top: 50px;
+  height: 323px;
+  background-color: rgb(183, 214, 220);
+}
+.faq-content{
+  float: left;
+  margin-left: 90px;
+  margin-top: 50px;
+}
+
+
+.faq-content h4{
+  font-size: small;
+}
+
+.faq-image{
+  float: right;
+}
+
+.faq-content button{
+  color:#ffffff;
+  background-color:  #3400ff;
+  border-radius: 5px;
+  border: transparent;
+  height: 30px;
+  padding: 5px;
+  margin-top: 20px;
+}
+/* Download  */
+.download-section{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.download-content{
+  margin-left: 90px;
+}
+.download-content span{
+  font-weight: lighter;
+}
+
+.download-email{
+  margin-right: 100px;
+}
+
+.download-email button{
+  color:#ffffff;
+  background-color:  #3400ff;
+  border-radius: 15px;
+  border: transparent;
+  height: 30px;
+  width: 100px;
+  padding:5px;
+}
+.download-email input{
+  background-color: rgb(183, 214, 220);
+  border: transparent;
+  border-radius: 15px;
+  color: #1f1f1f;
+  height: 32px;
+  width: 300px;
+  padding: 5px;
+}
+
+/* fooer-section */
+.footer-section{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  background-color: #3400ff;
+  height: 200px;
+  color: white;
+}
+
+.footer-left{
+  margin-left: 90px;
+  margin-top: 50px;
+}
+.footer-right{
+  margin-right: 90px;
+  margin-top: 30px;
+}
+
+.list{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 500px;
+}
+
+li:nth-child(2n){
+border-left: 2px solid white;
+height: 20px;
+}
+li:nth-child(3n){
+  border-left: 2px solid white;
+  height: 20px;
+  }
+
+  li:nth-last-child(){
+  border-left: 2px solid white;
+  height: 20px; 
+  }
+
+
+  .logos-list{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    list-style: none;
+  }
+
+  .list-items{
+    margin-right: 20px;
+  }
+
